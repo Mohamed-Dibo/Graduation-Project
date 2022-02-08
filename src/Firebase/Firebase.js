@@ -6,13 +6,13 @@ import { createContext } from 'react';
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAnumzaQ9MW_fTFzW17q2thVQgS-L1FFHM",
-  authDomain: "in-a-minute-8cfa9.firebaseapp.com",
-  projectId: "in-a-minute-8cfa9",
-  storageBucket: "in-a-minute-8cfa9.appspot.com",
-  messagingSenderId: "993750853391",
-  appId: "1:993750853391:web:b739f996c664dce381c07a",
-  // measurementId: `${config.measurementId}`
+  apiKey: "AIzaSyBsrfymXx59nKlgmXNTl5XxpsAgEqWt0cs",
+  authDomain: "in-a-minute-fa5fc.firebaseapp.com",
+  projectId: "in-a-minute-fa5fc",
+  storageBucket: "in-a-minute-fa5fc.appspot.com",
+  messagingSenderId: "397274643372",
+  appId: "1:397274643372:web:5ec5efcaaaf62f05ce1809",
+  // measurementId: "G-M1M6NLV29L"
 };
 firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore();
