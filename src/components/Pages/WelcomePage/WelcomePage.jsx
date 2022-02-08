@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './WelcomePage.scss';
+import { Link } from "react-router-dom";
+import logoImage from "../../../assets/images/logo/logo.png";
+import "./WelcomePage.scss";
 
 function WelcomePage() {
   return (
@@ -60,7 +60,7 @@ function WelcomePage() {
             </div>
           </div>
           <figure className='website__logo col-sm-12 col-lg-4 order-lg-2 order-sm-1  mb-0 dropDown'>
-            <img className='w-100' src='./logo.png' alt='logo' />
+            <img className='w-100' src={logoImage} alt='logo' />
           </figure>
         </div>
       </div>
